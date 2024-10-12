@@ -11,6 +11,7 @@ This Project is a Nest.js application designed for handling product data and pro
   - [Role-Based Access Control (RBAC)](#role-based-access-control-rbac)
   - [Products](#products)
   - [Categories](#categories)
+  - [Filtering Products](#filtering-products)
   - [User Management](#user-management)
   - [JWT Authentication](#jwt-authentication)
 - [Security](#security)
@@ -95,6 +96,9 @@ Each product includes the following properties:
 Categories help organize products. Each category includes:
 - `name`: Name of the category.
 - `description`: Description of the category.
+
+### Filtering Products
+- Implement filtering options for products by category and price range.
 
 ### User Management
 Admins can manage users through the following actions:
