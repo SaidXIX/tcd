@@ -46,21 +46,26 @@ Before starting the project, ensure you have the following installed:
    ```
 2. Then since we are using [Prisma](https://www.prisma.io/) we need to generate prisma client that interacts with the databas
    ```bash
-   npm run prisma generate
+   npm run db:client:generate
    ```
 3. After that we have to execute the prisma schema and apply it on the database
    ```bash
-   npx prisma db push
+   npm run db:push
    ```
 4. since we will be interacting with products, categories, users, I decided to add a seeder to get you started with testing directly 
    ```bash
-   npm run seed
+   npm run db:seed
    ```
 5. Now we're ready to startup our server 
    ```bash
    npm run start:dev
    ```
 6. The server will start up on port `3000`, the base Api path is `localhost:3000/api`
+7. **NB:** To skip all the `5 little steps` of the `Step 2` you can just run directly 
+   ```bash
+   npm run setup
+   ```
+   It will do all of the above at once
 
 ## API Features
 
