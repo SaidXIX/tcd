@@ -4,7 +4,6 @@ import * as argon from 'argon2'
 const prisma = new PrismaClient();
 
 async function main() {
-  // Create users
   const hashedPassword1 = await argon.hash('admin123')
   const admin = await prisma.user.create({
     data: {
