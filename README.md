@@ -16,6 +16,7 @@ This Project is a Nest.js application designed for handling product data and pro
   - [JWT Authentication](#jwt-authentication)
 - [Security](#security)
 - [Additional Features](#additional-features)
+- [Test Credentials](#test-credentials)
 
 ---
 
@@ -126,4 +127,18 @@ Admins can manage users through the following actions:
 - **Pagination**: Pagination for products is implemented to allow fetching results in smaller chunks ☑️
 - **Soft Deletion**: Products and categories can be marked as "deleted" without being removed from the database ☑️
 - **API Documentation**: Use [Swagger](https://swagger.io/) to document API endpoints☑️ check the url `http://localhost:3000/api/docs` for the documentation
+
+
+## Test Credentials
+
+To help you get started quickly, the database has been seeded with the following test users:
+
+| Role    | Email                   | Password   |
+|---------|-------------------------|------------|
+| Admin   | admin@example.com       | admin123   |
+| Manager | manager@example.com     | manager123 |
+| Client  | client@example.com      | client123  |
+
+You can use these credentials to log in and test the application. The seeded users have different roles (Admin, Manager, and Client) to demonstrate the role-based access control functionality.
+
 
