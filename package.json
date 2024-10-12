@@ -6,10 +6,10 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "db:generate": "npx prisma generate",
+    "db:client:generate": "npx prisma generate",
     "db:push": "npx prisma db push",
     "db:seed": "ts-node scripts/seeder.ts",
-    "setup": "npm install && npm run db:generate && npm run db:push && npm run db:seed && npm run start:dev",
+    "setup": "npm install && npm run db:client:generate && npm run db:push && npm run db:seed && npm run start:dev",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
