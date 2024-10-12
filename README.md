@@ -60,6 +60,7 @@ Before starting the project, ensure you have the following installed:
    ```bash
    npm run start:dev
    ```
+6. The server will start up on port `3000`, the base Api path is `localhost:3000/api`
 
 ## API Features
 
