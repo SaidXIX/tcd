@@ -33,8 +33,6 @@ The project uses the following technologies:
 | Prisma                     | A modern ORM for Node.js and TypeScript for interacting with the database. | <img src="https://avatars.githubusercontent.com/u/17219288?s=200&v=4" alt="Prisma" width="35" height="30"/>           |
 | Docker Compose             | Tool for defining and running multi-container Docker applications.   | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Compose" width="35" height="30"/>  |
 
-Each tool brings unique capabilities to the project, enabling efficient development and deployment.
-
 ## Prerequisites
 
 Before starting the project, ensure you have the following installed:
