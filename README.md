@@ -3,6 +3,7 @@
 This Project is a Nest.js application designed for handling product data and providing role-based access control (RBAC). It allows users to create, update, view, and delete products with different levels of permissions based on their roles: Admin, Manager, and Client. Secured with Authentication using JWT, Refresh token rotation.
 
 ## Table of Contents
+- [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Project Setup](#project-setup)
   - [Step 1: Build and Start MongoDB](#step-1-build-and-start-mongodb)
@@ -19,6 +20,20 @@ This Project is a Nest.js application designed for handling product data and pro
 - [Test Credentials](#test-credentials)
 
 ---
+## Tech Stack
+
+The project uses the following technologies:
+
+| Tech                       | Description                                             | Icon                                                                                     |
+|----------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------|
+| NestJS                     | A progressive Node.js framework for building efficient, reliable, and scalable server-side applications. | <img src="https://nestjs.com/img/logo-small.svg" alt="NestJS" width="35" height="30"/>   |
+| TypeScript                 | A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. | <img src="https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png" alt="TypeScript" width="30" height="30"/> |
+| JWT                        | JSON Web Tokens for secure authentication and authorization.       | <img src="https://jwt.io/img/pic_logo.svg" alt="JWT" width="35" height="30"/>            |
+| MongoDB                    | A NoSQL database for storing and querying data efficiently.          | <img src="https://raw.githubusercontent.com/github/explore/main/topics/mongodb/mongodb.png" alt="MongoDB" width="35" height="30"/>         |
+| Prisma                     | A modern ORM for Node.js and TypeScript for interacting with the database. | <img src="https://avatars.githubusercontent.com/u/17219288?s=200&v=4" alt="Prisma" width="35" height="30"/>           |
+| Docker Compose             | Tool for defining and running multi-container Docker applications.   | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Compose" width="35" height="30"/>  |
+
+Each tool brings unique capabilities to the project, enabling efficient development and deployment.
 
 ## Prerequisites
 
