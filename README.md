@@ -61,7 +61,9 @@ Before starting the project, ensure you have the following installed:
    npm run start:dev
    ```
 6. The server will start up on port `3000`, the base Api path is `localhost:3000/api`
-7. **NB:** To skip all the `5 little steps` of the `Step 2` you can just run directly 
+
+### Too tired ? 😫
+**NB:** To skip all the `5 little steps` of the `Step 2` you can just run directly 
    ```bash
    npm run setup
    ```
