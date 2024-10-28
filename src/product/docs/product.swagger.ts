@@ -1,5 +1,3 @@
-// src/product/product.documentation.ts
-
 export const productDocumentation = {
     paths: {
       '/api/product/create': {
