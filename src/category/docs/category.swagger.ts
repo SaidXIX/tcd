@@ -1,6 +1,6 @@
 export const categoryDocumentation = {
     paths: {
-      '/category/create': {
+      '/api/category/create': {
         post: {
           summary: 'Create a new category',
           description: 'This endpoint allows an admin or manager to create a new category by providing the category details.',
@@ -24,7 +24,7 @@ export const categoryDocumentation = {
           },
         },
       },
-      '/category/update/{id}': {
+      '/api/category/update/{id}': {
         put: {
           summary: 'Update an existing category',
           description: 'This endpoint allows an admin or manager to update the details of an existing category.',
@@ -56,7 +56,7 @@ export const categoryDocumentation = {
           },
         },
       },
-      '/category/delete/{id}': {
+      '/api/category/delete/{id}': {
         delete: {
           summary: 'Delete a category by ID',
           description: 'This endpoint allows an admin to delete a category by providing the category ID.',
@@ -75,7 +75,7 @@ export const categoryDocumentation = {
           },
         },
       },
-      '/category/all': {
+      '/api/category/all': {
         get: {
           summary: 'List all categories',
           description: 'This endpoint allows an admin or manager to retrieve a list of all categories.',

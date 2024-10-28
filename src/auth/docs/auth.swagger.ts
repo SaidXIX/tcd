@@ -1,6 +1,6 @@
 export const authDocumentation = {
     paths: {
-      '/auth/register': {
+      '/api/auth/register': {
         post: {
           summary: 'Register a new user',
           description: 'This endpoint allows a new user to register by providing their details.',
@@ -28,7 +28,7 @@ export const authDocumentation = {
           },
         },
       },
-      '/auth/login': {
+      '/api/auth/login': {
         post: {
           summary: 'Log in an existing user',
           description: 'This endpoint allows an existing user to log in by providing their credentials.',
@@ -53,7 +53,7 @@ export const authDocumentation = {
           },
         },
       },
-      '/auth/refresh': {
+      '/api/auth/refresh': {
         post: {
           summary: 'Refresh user tokens',
           description: 'This endpoint allows a user to refresh their access and refresh tokens using the user ID and refresh token.',
@@ -78,7 +78,7 @@ export const authDocumentation = {
           },
         },
       },
-      '/auth/logout': {
+      '/api/auth/logout': {
         post: {
           summary: 'Log out a user',
           description: 'This endpoint allows a user to log out by invalidating their refresh token.',

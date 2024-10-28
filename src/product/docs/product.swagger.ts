@@ -2,7 +2,7 @@
 
 export const productDocumentation = {
     paths: {
-      '/product/create': {
+      '/api/product/create': {
         post: {
           summary: 'Create a new product',
           description: 'This endpoint allows an admin or manager to create a new product by providing the product details.',
@@ -28,7 +28,7 @@ export const productDocumentation = {
           },
         },
       },
-      '/product/update/{id}': {
+      '/api/product/update/{id}': {
         put: {
           summary: 'Update an existing product',
           description: 'This endpoint allows an admin or manager to update an existing product by providing the product ID and new details.',
@@ -64,7 +64,7 @@ export const productDocumentation = {
           },
         },
       },
-      '/product/delete/{id}': {
+      '/api/product/delete/{id}': {
         delete: {
           summary: 'Delete a product by ID',
           description: 'This endpoint allows an admin to delete a product by providing the product ID.',
@@ -83,7 +83,7 @@ export const productDocumentation = {
           },
         },
       },
-      '/product/all': {
+      '/api/product/all': {
         get: {
           summary: 'List all products',
           description: 'This endpoint allows an admin or manager to list all products.',
@@ -101,7 +101,7 @@ export const productDocumentation = {
           },
         },
       },
-      '/product/filter': {
+      '/api/product/filter': {
         get: {
           summary: 'Filter products',
           description: 'This endpoint allows an admin or manager to filter products based on category name and price range.',

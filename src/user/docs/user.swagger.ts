@@ -1,6 +1,6 @@
 export const userDocumentation = {
     paths: {
-      '/user/create': {
+      '/api/user/create': {
         post: {
           summary: 'Create a new user',
           description: 'This endpoint allows an admin to create a new user by providing the user details.',
@@ -28,7 +28,7 @@ export const userDocumentation = {
           },
         },
       },
-      '/user/assign-role/{userId}': {
+      '/api/user/assign-role/{userId}': {
         patch: {
           summary: 'Assign a role to a user',
           description: 'This endpoint allows an admin to assign a role to an existing user.',
@@ -61,7 +61,7 @@ export const userDocumentation = {
           },
         },
       },
-      '/user/delete/{userId}': {
+      '/api/user/delete/{userId}': {
         delete: {
           summary: 'Delete a user by ID',
           description: 'This endpoint allows an admin to delete a user by providing the user ID.',
